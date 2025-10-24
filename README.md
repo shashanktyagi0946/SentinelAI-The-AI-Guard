@@ -103,13 +103,3 @@ Model: en_core_web_lg
 🔁 Continuous improvement loops via feedback-based retraining
 
 🧮 Contrastive learning for context-sensitive disambiguation
-
-🧑‍💻 Contributors
-
-👤 Shashank Tyagi
-MSc Data Science | University of Birmingham
-🔗 LinkedIn
-
-🧾 License
-
-This project is licensed under the MIT License.

@@ -1,7 +1,7 @@
 SentinelAI – The AI Guard
 
 🔐 “Protecting privacy without sacrificing data utility.”
-SentinelAI is a local-first PII anonymization and evaluation framework built to detect and anonymize Personally Identifiable Information (PII) in text or CSV files — all securely processed on your device.
+SentinelAI is a local-first PII anonymization and evaluation framework built to detect and anonymize Personally Identifiable Information (PII) in text or CSV files all securely processed on your device.
 
 🚀 Overview
 
@@ -21,10 +21,10 @@ Evaluation: Compute quantitative metrics (Precision, Recall, and F1-Score) to as
 Here’s the flow:
 
 flowchart LR
-A[Input Text/CSV] --> B[PII Detection: spaCy NER + Regex + Rules]
-B --> C[Anonymization & Replacement]
-C --> D[Evaluation: Precision, Recall, F1]
-D --> E[Anonymized Output + JSON Log]
+A[Input Text/CSV] >>> B[PII Detection: spaCy NER + Regex + Rules]
+B >>> C[Anonymization & Replacement]
+C >>> D[Evaluation: Precision, Recall, F1]
+D >>> E[Anonymized Output + JSON Log]
 
 ⚙️ Key Features
 Feature	Description
@@ -35,14 +35,14 @@ Feature	Description
 🧪 Evaluation Metrics	Calculates Precision, Recall, and F1-Score for performance validation.
 🔁 Second-Pass Anonymization	A follow-up layer to capture regex-definable PII missed in the first pass.
 🧰 Project Structure
-│
-├── anonymizer.py          # Core anonymization logic (NER + regex + contextual rules)
-├── main_script.py         # Entry point for anonymization & evaluation
-├── final_dataset.csv      # Example input dataset
-├── anonymized_output.csv  # Example anonymized output
-├── anonymization_log.json # Log file mapping original → anonymized text
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+
+1. anonymizer.py          # Core anonymization logic (NER + regex + contextual rules)
+2. main_script.py         # Entry point for anonymization & evaluation
+3. final_dataset.csv      # Example input dataset
+4. anonymized_output.csv  # Example anonymized output
+5. anonymization_log.json # Log file mapping original → anonymized text
+6. requirements.txt       # Python dependencies
+7. README.md              # Project documentation
 
 ⚡ Quick Start
 🔹 1. Clone the Repository
